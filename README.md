@@ -15,15 +15,6 @@ Done!
 - Use the Logger.
 
 # Logger Examples
-Code: l.logDebug("input"); - Result: [Log]: input
-Code: l.logWarn("input"); - Result: [Warn]: input
-Code: l.logErr("input", true); - Result:
-============
-[Err]: input
-============
-(Will exit App)
-Code: l.logErr("input", false); - Result:
-============
-[Err]: input
-============
-(Will not exit App)
+- Code: l.logDebug("input"); - Result: [Log]: input
+- Code: l.logWarn("input"); - Result: [Warn]: input
+- Code: l.logErr("input", true); - Result: [Err]: input (& will close your program if boolean is true)
